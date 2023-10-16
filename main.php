@@ -93,7 +93,6 @@ function tell($what, $productsCost = productsCost) {
 	$whatArray = explode(', ', $what);
 	$whatArrayCounter = count($whatArray);
 	
-	echo '<pre>';
 	for ($i = 0; $i < $whatArrayCounter; $i++) {
 		if ($whatArray[$i] == 'machines') {
 			echo 'There currently are: <br>';
